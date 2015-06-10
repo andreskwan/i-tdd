@@ -32,9 +32,14 @@
 
 - (void)testDeposits {
     // This is an example of a functional test case.
-    BankAccount * account = [BankAccount new];
+    BankAccount * account = [[BankAccount alloc]init];
     [account deposit:50];
     XCTAssertEqual([account balance], 50,@"pass");
+}
+
+- (void)testWithdraw {
+    // This is an example of a functional test case.
+    BankAccount * account = [[BankAccount alloc] initWithBalance:50];
     [account withdraw:30];
     XCTAssertEqual([account balance], 20,@"pass");
 }

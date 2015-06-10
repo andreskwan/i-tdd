@@ -11,5 +11,7 @@
 
 - (void)deposit:(int)amount;
 
+- (instancetype)initWithBalance:(int)balance;
+
 - (void)withdraw:(int)amount;
 @end
