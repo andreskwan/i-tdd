@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3865C11FBAAB329580CD7B21 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3865CF338354A9FD0C8A1198 /* Images.xcassets */; };
+		3865C4930E78B62AF6482377 /* BankAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 3865C4D1AD0A268A2EEC5F39 /* BankAccount.m */; };
+		3865C576D80A3FFAB91AF50D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3865C673EEFD643C92D89BD8 /* LaunchScreen.xib */; };
+		3865CA63390ABE195C17487B /* TDDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3865CA802CE6107CB0C31681 /* TDDTests.m */; };
+		3865CAA507BE13AF9DC95DCD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3865C882CC83E26F4C87B31E /* ViewController.m */; };
+		3865CE04EBA430D725AB4601 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3865CC4FA00C47892B8E3757 /* AppDelegate.m */; };
+		3865CE593634F11772DD26FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3865C591709526CED9257EA0 /* main.m */; };
+		3865CF009BD0578F39DB3F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3865C1EC69F08C535DF9CC9B /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3865C7F015BD9F7084397D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3865C8747714486728600B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3865CA711D55366FC2A9531F;
+			remoteInfo = TDDLynda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3865C07AAEF9D134D47CB0A2 /* TDDLynda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDLynda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3865C32E8B63CAEBEC6D8B50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3865C3CA271097542AFDDC04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		3865C4D1AD0A268A2EEC5F39 /* BankAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankAccount.m; sourceTree = "<group>"; };
+		3865C4E189F6B8354B30759E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3865C591709526CED9257EA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3865C66819EB979A5FAEAE91 /* BankAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankAccount.h; sourceTree = "<group>"; };
+		3865C8740771055F9D33A013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		3865C882CC83E26F4C87B31E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3865CA802CE6107CB0C31681 /* TDDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TDDTests.m; sourceTree = "<group>"; };
+		3865CADB039936792290CE70 /* TDDLyndaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TDDLyndaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3865CC4FA00C47892B8E3757 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3865CC5EA13C34269395481B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3865CE65C2A12AE663A0630A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3865CF338354A9FD0C8A1198 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3865C0161ED373D261249565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3865CC782C60292BC3E13756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3865C4B0C3B41E7AA6BF2941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3865C07AAEF9D134D47CB0A2 /* TDDLynda.app */,
+				3865CADB039936792290CE70 /* TDDLyndaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3865C75D36760BDB856F7B56 /* TDDLyndaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3865CE71E56CD61479D6197B /* Supporting Files */,
+				3865CA802CE6107CB0C31681 /* TDDTests.m */,
+				3865C4D1AD0A268A2EEC5F39 /* BankAccount.m */,
+				3865C66819EB979A5FAEAE91 /* BankAccount.h */,
+			);
+			path = TDDLyndaTests;
+			sourceTree = "<group>";
+		};
+		3865CDC46BCFA0C9849AAFC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3865C8740771055F9D33A013 /* Info.plist */,
+				3865C591709526CED9257EA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3865CE71E56CD61479D6197B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3865C3CA271097542AFDDC04 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3865CEF57F8D135E007323D0 = {
+			isa = PBXGroup;
+			children = (
+				3865C4B0C3B41E7AA6BF2941 /* Products */,
+				3865CF3B7BE185453073449F /* TDDLynda */,
+				3865C75D36760BDB856F7B56 /* TDDLyndaTests */,
+			);
+			sourceTree = "<group>";
+		};
+		3865CF3B7BE185453073449F /* TDDLynda */ = {
+			isa = PBXGroup;
+			children = (
+				3865CDC46BCFA0C9849AAFC5 /* Supporting Files */,
+				3865CF338354A9FD0C8A1198 /* Images.xcassets */,
+				3865C673EEFD643C92D89BD8 /* LaunchScreen.xib */,
+				3865C32E8B63CAEBEC6D8B50 /* AppDelegate.h */,
+				3865CC4FA00C47892B8E3757 /* AppDelegate.m */,
+				3865C1EC69F08C535DF9CC9B /* Main.storyboard */,
+				3865CC5EA13C34269395481B /* ViewController.h */,
+				3865C882CC83E26F4C87B31E /* ViewController.m */,
+			);
+			path = TDDLynda;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3865CA711D55366FC2A9531F /* TDDLynda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3865CA6534D3EB32FCD86611 /* Build configuration list for PBXNativeTarget "TDDLynda" */;
+			buildPhases = (
+				3865C59905E2D228C14FA084 /* Sources */,
+				3865C0161ED373D261249565 /* Frameworks */,
+				3865C063231ADBCDA05E11B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TDDLynda;
+			productName = TDDLynda;
+			productReference = 3865C07AAEF9D134D47CB0A2 /* TDDLynda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3865CCA3A4C72F586AE88030 /* TDDLyndaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3865CCC45631CAC02DDE1B08 /* Build configuration list for PBXNativeTarget "TDDLyndaTests" */;
+			buildPhases = (
+				3865C370135CA06C0448C07E /* Sources */,
+				3865CC782C60292BC3E13756 /* Frameworks */,
+				3865CFCAC4A9644BE7F1ECC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3865C1B41BCA0CB59EBFCEC5 /* PBXTargetDependency */,
+			);
+			name = TDDLyndaTests;
+			productName = TDDLyndaTests;
+			productReference = 3865CADB039936792290CE70 /* TDDLyndaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3865C8747714486728600B68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___PEPE___";
+			};
+			buildConfigurationList = 3865C8DE4C607550ED56659F /* Build configuration list for PBXProject "TDDLynda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3865CEF57F8D135E007323D0;
+			productRefGroup = 3865C4B0C3B41E7AA6BF2941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3865CA711D55366FC2A9531F /* TDDLynda */,
+				3865CCA3A4C72F586AE88030 /* TDDLyndaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3865C063231ADBCDA05E11B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3865C11FBAAB329580CD7B21 /* Images.xcassets in Resources */,
+				3865C576D80A3FFAB91AF50D /* LaunchScreen.xib in Resources */,
+				3865CF009BD0578F39DB3F86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3865CFCAC4A9644BE7F1ECC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3865C370135CA06C0448C07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3865CA63390ABE195C17487B /* TDDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3865C59905E2D228C14FA084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3865CE593634F11772DD26FA /* main.m in Sources */,
+				3865CE04EBA430D725AB4601 /* AppDelegate.m in Sources */,
+				3865CAA507BE13AF9DC95DCD /* ViewController.m in Sources */,
+				3865C4930E78B62AF6482377 /* BankAccount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3865C1B41BCA0CB59EBFCEC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3865CA711D55366FC2A9531F /* TDDLynda */;
+			targetProxy = 3865C7F015BD9F7084397D47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3865C1EC69F08C535DF9CC9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3865CE65C2A12AE663A0630A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3865C673EEFD643C92D89BD8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3865C4E189F6B8354B30759E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3865C0CBA483BED8E4ABAF3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3865C13FA604DE7906DF59DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TDDLynda.app/TDDLynda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TDDLyndaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		3865C543B2524633717514FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TDDLynda.app/TDDLynda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TDDLyndaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		3865C79E896821F20002A93C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TDDLynda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3865C7FED53AF2793CB81B23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TDDLynda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3865CE173C9016BB82E9D952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3865C8DE4C607550ED56659F /* Build configuration list for PBXProject "TDDLynda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3865C0CBA483BED8E4ABAF3B /* Debug */,
+				3865CE173C9016BB82E9D952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3865CA6534D3EB32FCD86611 /* Build configuration list for PBXNativeTarget "TDDLynda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3865C7FED53AF2793CB81B23 /* Debug */,
+				3865C79E896821F20002A93C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3865CCC45631CAC02DDE1B08 /* Build configuration list for PBXNativeTarget "TDDLyndaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3865C543B2524633717514FD /* Debug */,
+				3865C13FA604DE7906DF59DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3865C8747714486728600B68 /* Project object */;
+}
