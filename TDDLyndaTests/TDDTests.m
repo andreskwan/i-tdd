@@ -44,6 +44,12 @@
     XCTAssertEqual([account balance], 20,@"pass");
 }
 
+- (void)testWithdrawWithPenalty {
+    // This is an example of a functional test case.
+    BankAccount * account = [[BankAccount alloc] initWithBalance:10];
+    [account withdraw:20];
+    XCTAssertEqual([account balance], -15,@"pass");
+}
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{

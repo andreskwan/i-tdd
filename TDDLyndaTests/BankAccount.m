@@ -34,6 +34,9 @@
 
 - (void)withdraw:(int)amount {
     self.balance -= amount;
+    if (self.balance < 0){
+        self.balance -=5;
+    }
 }
 
 @end
