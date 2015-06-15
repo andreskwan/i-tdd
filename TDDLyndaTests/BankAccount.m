@@ -32,10 +32,15 @@
     self.balance = self.balance + amount;
 }
 
-- (void)withdraw:(int)amount {
-    self.balance -= amount;
-    if (self.balance < 0){
-        self.balance -=5;
+- (bool)withdraw:(int)amount {
+    if (amount <= kMaxWithdrawAllowed){
+        self.balance -= amount;
+        if (self.balance < 0) {
+            self.balance -= 5;
+        }
+        return YES;
+    }else{
+        return NO;
     }
 }
 

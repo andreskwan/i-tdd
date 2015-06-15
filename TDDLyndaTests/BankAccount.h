@@ -6,6 +6,8 @@
 #import <Foundation/Foundation.h>
 
 
+static const int kMaxWithdrawAllowed = 500;
+
 @interface BankAccount : NSObject
 
 
@@ -13,5 +15,5 @@
 
 - (instancetype)initWithBalance:(int)balance;
 
-- (void)withdraw:(int)amount;
+- (bool)withdraw:(int)amount;
 @end
