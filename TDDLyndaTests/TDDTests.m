@@ -55,7 +55,7 @@
     XCTAssertEqual([self.account balance],100,@"Should not change");
 
     XCTAssertTrue([self.account withdraw:500],@"This transaction must be allowed");
-    XCTAssertEqual([self.account balance],-410,@"%s ", __PRETTY_FUNCTION__);
+    XCTAssertEqual([self.account balance],-405,@"%s ", __PRETTY_FUNCTION__);
 }
 
 - (void)testPerformanceExample {
