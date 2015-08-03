@@ -51,7 +51,7 @@
 }
 
 - (void)testWithdrawValidity {
-    XCTAssertFalse([self.account withdraw:100],@"Must be false, do not allow transaction");
+    XCTAssertFalse([self.account withdraw:1000],@"Must be false, do not allow transaction");
     XCTAssertEqual([self.account balance],100,@"Should not change");
 
     XCTAssertTrue([self.account withdraw:500],@"This transaction must be allowed");
