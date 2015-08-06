@@ -20,17 +20,20 @@
 
 @implementation TDDTests
 
-- (void)setUp {
+- (void)setUp
+{
     [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
-- (void)tearDown {
+- (void)tearDown
+{
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
 }
 
-- (void)testDeposits {
+- (void)testDeposits
+{
     self.account = [[BankAccount alloc] initWithBalance:0];
     [self.account deposit:50];
     XCTAssertEqual([self.account balance], 50,@"Balance after deposit is not right");

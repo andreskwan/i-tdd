@@ -81,8 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				EA3FBC8F1B2E877700ED80FD /* ItemReturnTest.m */,
-				3865CE71E56CD61479D6197B /* Supporting Files */,
 				3865CA802CE6107CB0C31681 /* TDDTests.m */,
+				3865CE71E56CD61479D6197B /* Supporting Files */,
 			);
 			path = TDDLyndaTests;
 			sourceTree = "<group>";
@@ -116,10 +116,10 @@
 		3865CF3B7BE185453073449F /* TDDLynda */ = {
 			isa = PBXGroup;
 			children = (
-				3865C4D1AD0A268A2EEC5F39 /* BankAccount.m */,
-				3865C66819EB979A5FAEAE91 /* BankAccount.h */,
 				3865CCD8751F48ED1E03637D /* ItemReturn.m */,
 				3865C1FBEF3FE4D33563A5F2 /* ItemReturn.h */,
+				3865C4D1AD0A268A2EEC5F39 /* BankAccount.m */,
+				3865C66819EB979A5FAEAE91 /* BankAccount.h */,
 				3865CDC46BCFA0C9849AAFC5 /* Supporting Files */,
 				3865CF338354A9FD0C8A1198 /* Images.xcassets */,
 				3865C673EEFD643C92D89BD8 /* LaunchScreen.xib */,
