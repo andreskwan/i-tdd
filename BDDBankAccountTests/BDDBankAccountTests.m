@@ -8,33 +8,37 @@
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+#import <Specta/Specta.h>
+#import <Expecta/Expecta.h>
+#import "BankAccount.h"
 
-@interface BDDBankAccountTests : XCTestCase
+//@interface BDDBankAccountTestsSpec : XCTestCase
 
+//@end
+
+
+@interface BankAccount (Test)
+    @property(nonatomic) int balance;
 @end
 
-@implementation BDDBankAccountTests
+SpecBegin(BDDBankAccountTests)
+__block BankAccount *account;
+describe(@"When the Account Holder deposits $50 the balance...", ^{
+    beforeAll(^{
+        //Given: the account balance is \$0
+        account = [[BankAccount alloc] initWithBalance:0];
+    });
+    
+    it(@"should be $50", ^{
+        [account deposit:50];
+        expect(account.balance).to.equal(50);
+    });
+    
+    
+    afterAll(^{
+        account = nil;
+    });
+});
+SpecEnd
 
-- (void)setUp {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
-
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
-
-@end
