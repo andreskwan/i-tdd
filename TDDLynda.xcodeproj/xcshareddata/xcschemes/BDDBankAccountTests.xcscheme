@@ -9,34 +9,6 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3865CA711D55366FC2A9531F"
-               BuildableName = "TDDLynda.app"
-               BlueprintName = "TDDLynda"
-               ReferencedContainer = "container:TDDLynda.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3865CCA3A4C72F586AE88030"
-               BuildableName = "TDDLyndaTests.xctest"
-               BlueprintName = "TDDLyndaTests"
-               ReferencedContainer = "container:TDDLynda.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "YES">
@@ -60,16 +32,6 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3865CCA3A4C72F586AE88030"
-               BuildableName = "TDDLyndaTests.xctest"
-               BlueprintName = "TDDLyndaTests"
-               ReferencedContainer = "container:TDDLynda.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA258FD51B7389E2001764F0"
                BuildableName = "BDDBankAccountTests.xctest"
                BlueprintName = "BDDBankAccountTests"
@@ -80,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3865CA711D55366FC2A9531F"
-            BuildableName = "TDDLynda.app"
-            BlueprintName = "TDDLynda"
+            BlueprintIdentifier = "EA258FD51B7389E2001764F0"
+            BuildableName = "BDDBankAccountTests.xctest"
+            BlueprintName = "BDDBankAccountTests"
             ReferencedContainer = "container:TDDLynda.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -96,16 +58,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3865CA711D55366FC2A9531F"
-            BuildableName = "TDDLynda.app"
-            BlueprintName = "TDDLynda"
+            BlueprintIdentifier = "EA258FD51B7389E2001764F0"
+            BuildableName = "BDDBankAccountTests.xctest"
+            BlueprintName = "BDDBankAccountTests"
             ReferencedContainer = "container:TDDLynda.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -115,16 +76,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3865CA711D55366FC2A9531F"
-            BuildableName = "TDDLynda.app"
-            BlueprintName = "TDDLynda"
+            BlueprintIdentifier = "EA258FD51B7389E2001764F0"
+            BuildableName = "BDDBankAccountTests.xctest"
+            BlueprintName = "BDDBankAccountTests"
             ReferencedContainer = "container:TDDLynda.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

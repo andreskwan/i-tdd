@@ -16,6 +16,8 @@
 		3865CE04EBA430D725AB4601 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3865CC4FA00C47892B8E3757 /* AppDelegate.m */; };
 		3865CE593634F11772DD26FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3865C591709526CED9257EA0 /* main.m */; };
 		3865CF009BD0578F39DB3F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3865C1EC69F08C535DF9CC9B /* Main.storyboard */; };
+		7A0F91F2DB3E652D01CCD2E5 /* libPods-BDDBankAccountTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E0BDDE515074FCE4E77A13 /* libPods-BDDBankAccountTests.a */; };
+		EA258FDB1B7389E2001764F0 /* BDDBankAccountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA258FDA1B7389E2001764F0 /* BDDBankAccountTests.m */; };
 		EA3FBC901B2E877700ED80FD /* ItemReturnTest.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3FBC8F1B2E877700ED80FD /* ItemReturnTest.m */; };
 /* End PBXBuildFile section */
 
@@ -27,9 +29,17 @@
 			remoteGlobalIDString = 3865CA711D55366FC2A9531F;
 			remoteInfo = TDDLynda;
 		};
+		EA258FDC1B7389E2001764F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3865C8747714486728600B68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3865CA711D55366FC2A9531F;
+			remoteInfo = TDDLynda;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01996EBEDC55C7AF14B183CA /* Pods-BDDBankAccountTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDBankAccountTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BDDBankAccountTests/Pods-BDDBankAccountTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3865C07AAEF9D134D47CB0A2 /* TDDLynda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDDLynda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3865C1FBEF3FE4D33563A5F2 /* ItemReturn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemReturn.h; path = TDDLynda/ItemReturn.h; sourceTree = SOURCE_ROOT; };
 		3865C32E8B63CAEBEC6D8B50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,6 +57,11 @@
 		3865CCD8751F48ED1E03637D /* ItemReturn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemReturn.m; path = TDDLynda/ItemReturn.m; sourceTree = SOURCE_ROOT; };
 		3865CE65C2A12AE663A0630A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3865CF338354A9FD0C8A1198 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BA38A0E17C95AB6FF47A668 /* Pods-BDDBankAccountTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BDDBankAccountTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BDDBankAccountTests/Pods-BDDBankAccountTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1E0BDDE515074FCE4E77A13 /* libPods-BDDBankAccountTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BDDBankAccountTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA258FD61B7389E2001764F0 /* BDDBankAccountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BDDBankAccountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA258FD91B7389E2001764F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA258FDA1B7389E2001764F0 /* BDDBankAccountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDDBankAccountTests.m; sourceTree = "<group>"; };
 		EA3FBC8F1B2E877700ED80FD /* ItemReturnTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemReturnTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +80,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA258FD31B7389E2001764F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0F91F2DB3E652D01CCD2E5 /* libPods-BDDBankAccountTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -73,6 +96,7 @@
 			children = (
 				3865C07AAEF9D134D47CB0A2 /* TDDLynda.app */,
 				3865CADB039936792290CE70 /* TDDLyndaTests.xctest */,
+				EA258FD61B7389E2001764F0 /* BDDBankAccountTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,9 +131,12 @@
 		3865CEF57F8D135E007323D0 = {
 			isa = PBXGroup;
 			children = (
+				EA258FD71B7389E2001764F0 /* BDDBankAccountTests */,
 				3865C4B0C3B41E7AA6BF2941 /* Products */,
 				3865CF3B7BE185453073449F /* TDDLynda */,
 				3865C75D36760BDB856F7B56 /* TDDLyndaTests */,
+				B0C67068753350A5D8EDAC57 /* Pods */,
+				98BD155D2496FE3170BD7D07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,6 +157,40 @@
 				3865C882CC83E26F4C87B31E /* ViewController.m */,
 			);
 			path = TDDLynda;
+			sourceTree = "<group>";
+		};
+		98BD155D2496FE3170BD7D07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1E0BDDE515074FCE4E77A13 /* libPods-BDDBankAccountTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B0C67068753350A5D8EDAC57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01996EBEDC55C7AF14B183CA /* Pods-BDDBankAccountTests.debug.xcconfig */,
+				8BA38A0E17C95AB6FF47A668 /* Pods-BDDBankAccountTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA258FD71B7389E2001764F0 /* BDDBankAccountTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA258FDA1B7389E2001764F0 /* BDDBankAccountTests.m */,
+				EA258FD81B7389E2001764F0 /* Supporting Files */,
+			);
+			path = BDDBankAccountTests;
+			sourceTree = "<group>";
+		};
+		EA258FD81B7389E2001764F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA258FD91B7389E2001764F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +231,26 @@
 			productReference = 3865CADB039936792290CE70 /* TDDLyndaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EA258FD51B7389E2001764F0 /* BDDBankAccountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA258FE01B7389E2001764F0 /* Build configuration list for PBXNativeTarget "BDDBankAccountTests" */;
+			buildPhases = (
+				4693F68886CF80E0CB28E6DB /* Check Pods Manifest.lock */,
+				EA258FD21B7389E2001764F0 /* Sources */,
+				EA258FD31B7389E2001764F0 /* Frameworks */,
+				EA258FD41B7389E2001764F0 /* Resources */,
+				DE81EEB738EA54DFA51F40D5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA258FDD1B7389E2001764F0 /* PBXTargetDependency */,
+			);
+			name = BDDBankAccountTests;
+			productName = BDDBankAccountTests;
+			productReference = EA258FD61B7389E2001764F0 /* BDDBankAccountTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,6 +258,12 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = "___PEPE___";
+				TargetAttributes = {
+					EA258FD51B7389E2001764F0 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3865CA711D55366FC2A9531F;
+					};
+				};
 			};
 			buildConfigurationList = 3865C8DE4C607550ED56659F /* Build configuration list for PBXProject "TDDLynda" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -192,6 +279,7 @@
 			targets = (
 				3865CA711D55366FC2A9531F /* TDDLynda */,
 				3865CCA3A4C72F586AE88030 /* TDDLyndaTests */,
+				EA258FD51B7389E2001764F0 /* BDDBankAccountTests */,
 			);
 		};
 /* End PBXProject section */
@@ -214,7 +302,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA258FD41B7389E2001764F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4693F68886CF80E0CB28E6DB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE81EEB738EA54DFA51F40D5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BDDBankAccountTests/Pods-BDDBankAccountTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3865C370135CA06C0448C07E /* Sources */ = {
@@ -238,6 +366,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA258FD21B7389E2001764F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA258FDB1B7389E2001764F0 /* BDDBankAccountTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -245,6 +381,11 @@
 			isa = PBXTargetDependency;
 			target = 3865CA711D55366FC2A9531F /* TDDLynda */;
 			targetProxy = 3865C7F015BD9F7084397D47 /* PBXContainerItemProxy */;
+		};
+		EA258FDD1B7389E2001764F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3865CA711D55366FC2A9531F /* TDDLynda */;
+			targetProxy = EA258FDC1B7389E2001764F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -400,6 +541,44 @@
 			};
 			name = Release;
 		};
+		EA258FDE1B7389E2001764F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01996EBEDC55C7AF14B183CA /* Pods-BDDBankAccountTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BDDBankAccountTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDLynda.app/TDDLynda";
+			};
+			name = Debug;
+		};
+		EA258FDF1B7389E2001764F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BA38A0E17C95AB6FF47A668 /* Pods-BDDBankAccountTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BDDBankAccountTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TDDLynda.app/TDDLynda";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -426,6 +605,15 @@
 			buildConfigurations = (
 				3865C543B2524633717514FD /* Debug */,
 				3865C13FA604DE7906DF59DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA258FE01B7389E2001764F0 /* Build configuration list for PBXNativeTarget "BDDBankAccountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA258FDE1B7389E2001764F0 /* Debug */,
+				EA258FDF1B7389E2001764F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
