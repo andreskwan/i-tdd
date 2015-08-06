@@ -28,12 +28,11 @@ describe(@"When the Account Holder deposits $50 the balance...", ^{
         //Given: the account balance is \$0
         account = [[BankAccount alloc] initWithBalance:0];
     });
-    
+
     it(@"should be $50", ^{
         [account deposit:50];
         expect(account.balance).to.equal(50);
     });
-    
     
     afterAll(^{
         account = nil;

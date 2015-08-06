@@ -32,7 +32,7 @@
     [super tearDown];
 }
 
-- (void)testDeposits
+- (void)testDeposit
 {
     self.account = [[BankAccount alloc] initWithBalance:0];
     [self.account deposit:50];
