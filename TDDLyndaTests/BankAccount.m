@@ -37,6 +37,6 @@
 }
 - (void)withdraw:(int)amount
 {
-    
+    self.balance = self.balance - amount;
 }
 @end
