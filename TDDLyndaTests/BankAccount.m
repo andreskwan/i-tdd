@@ -28,15 +28,12 @@
 
 #pragma mark instance methods
 - (void)deposit:(int)amount {
-//    if (amount == 50) {
-//        self.balance = 50;
-//    }else if (amount == 30){
-//        self.balance = 80;
-//    }
     self.balance = self.balance + amount;
 }
 - (void)withdraw:(int)amount
 {
-    self.balance = self.balance - amount;
+    if (self.balance > amount) {
+       self.balance = self.balance - amount;
+    }
 }
 @end

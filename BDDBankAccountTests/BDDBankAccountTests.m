@@ -55,12 +55,24 @@ describe(@"BankAccount", ^{
             beforeEach(^{
                 //preconditions
                 initBalance = 100;
-                amount = 10000000;
+                amount = 50;
                 bankAccount = [[BankAccount alloc] initWithBalance:initBalance];
             });
             it(@"decreases balance by amount of withdrawal", ^{
                 [bankAccount withdraw:amount];
                 expect(bankAccount.balance).to.equal(initBalance - amount);
+            });
+        });
+        context(@"when insufficient funds", ^{
+            beforeEach(^{
+                //preconditions
+                initBalance = 100;
+                amount = 1000000;
+                bankAccount = [[BankAccount alloc] initWithBalance:initBalance];
+            });
+            it(@"does not decrease balance", ^{
+                [bankAccount withdraw:amount];
+                expect(bankAccount.balance).to.equal(initBalance);
             });
         });
     });
