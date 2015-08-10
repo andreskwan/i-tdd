@@ -5,11 +5,9 @@
 
 #import <Foundation/Foundation.h>
 
-
 static const int kMaxWithdrawAllowed = 500;
 
 @interface BankAccount : NSObject
-
 
 - (void)deposit:(int)amount;
 
