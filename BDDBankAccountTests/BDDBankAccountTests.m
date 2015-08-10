@@ -12,11 +12,6 @@
 #import <Expecta/Expecta.h>
 #import "BankAccount.h"
 
-//@interface BDDBankAccountTestsSpec : XCTestCase
-
-//@end
-
-
 @interface BankAccount (Test)
     @property(nonatomic) int balance;
 @end
@@ -25,22 +20,20 @@ SpecBegin(BDDBankAccountTests)
 
 describe(@"BankAccount", ^{
     __block BankAccount *bankAccount;
-    describe(@"initialization", ^{
-        context(@"with initial value", ^{
-            __block int initialBalance = 100;
-            it(@"should sets initial balance to a value", ^{
-                bankAccount = [[BankAccount alloc ]initWithBalance:initialBalance];
-                expect(bankAccount.balance).to.equal(initialBalance);
-            }); 
+    afterEach(^{
+        bankAccount = nil;
+    });
+    xdescribe(@"init", ^{
+        it(@"should sets initial balance to zero", ^{
+            bankAccount = [[BankAccount alloc] init];
+            expect(bankAccount.balance).to.equal(0);
         });
-        context(@"without initial value", ^{
-            it(@"should sets initial balance to zero", ^{
-                bankAccount = [[BankAccount alloc] init];
-                expect(bankAccount.balance).to.equal(0);
-            });
-        });
-        afterEach(^{
-            bankAccount = nil;
+    });
+    xdescribe(@"initWithBalance", ^{
+        __block int initialBalance = 100;
+        it(@"should sets initial balance to a value", ^{
+            bankAccount = [[BankAccount alloc ]initWithBalance:initialBalance];
+            expect(bankAccount.balance).to.equal(initialBalance);
         });
     });
     describe(@"deposit", ^{
@@ -57,24 +50,6 @@ describe(@"BankAccount", ^{
     afterAll(^{
         bankAccount = nil;
     });
-//        describe(@"increase the balance", ^{
-//            before(^{
-//                [bankAccount deposit:30];
-//            });
-//            it(@"should have balance in $80", ^{
-//                expect(bankAccount.balance).to.equal(80);
-//            });
-//            before(^{
-//                [bankAccount deposit:50];
-//                NSLog(@"before +50 %d",bankAccount.balance);
-//            });
-//            it(@"should have balance in $130", ^{
-//                NSLog(@"%d",bankAccount.balance);
-//                expect(bankAccount.balance).to.equal(130);
-//                NSLog(@"%d",bankAccount.balance);
-//            });
-//        });
-//    });
 });
 SpecEnd
 
