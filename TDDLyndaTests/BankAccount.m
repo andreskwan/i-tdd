@@ -35,5 +35,8 @@
 //    }
     self.balance = self.balance + amount;
 }
-
+- (void)withdraw:(int)amount
+{
+    
+}
 @end

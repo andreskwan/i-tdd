@@ -13,4 +13,5 @@ static const int kMaxWithdrawAllowed = 500;
 
 - (instancetype)initWithBalance:(int)balance;
 
+- (void)withdraw:(int)amount;
 @end

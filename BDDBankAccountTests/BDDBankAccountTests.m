@@ -30,13 +30,14 @@ describe(@"BankAccount", ^{
         });
     });
     xdescribe(@"initWithBalance", ^{
-        __block int initialBalance = 100;
+        __block int initialBalance;
         it(@"should sets initial balance to a value", ^{
+            initialBalance = 100;
             bankAccount = [[BankAccount alloc ]initWithBalance:initialBalance];
             expect(bankAccount.balance).to.equal(initialBalance);
         });
     });
-    describe(@"deposit", ^{
+    xdescribe(@"deposit", ^{
         __block int amount  = 50 + 80 + 160 + 2000;
         beforeAll(^{
             //preconditions
@@ -45,6 +46,21 @@ describe(@"BankAccount", ^{
         it(@"should increases balance after subsequent deposits", ^{
             [bankAccount deposit:amount];
             expect(bankAccount.balance).to.equal(amount);
+        });
+    });
+    describe(@"withdraw", ^{
+        __block int amount;
+        __block int initBalance;
+        beforeEach(^{
+            //preconditions
+            initBalance = 100;
+            amount = 50;
+            bankAccount = [[BankAccount alloc] initWithBalance:initBalance];
+
+        });
+        it(@"decreases balance by amount of withdrawal", ^{
+            [bankAccount withdraw:amount];
+            expect(bankAccount.balance).to.equal(initBalance - amount);
         });
     });
     afterAll(^{
