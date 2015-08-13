@@ -36,4 +36,10 @@
     self.balance = self.balance + amount;
 }
 
+- (void)withdraw:(int)amount{
+    if (self.balance >= amount) {
+        self.balance = self.balance - amount;
+    }
+}
+
 @end

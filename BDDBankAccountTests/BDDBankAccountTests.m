@@ -47,6 +47,33 @@ describe(@"BankAccount", ^{
             expect(bankAccount.balance).to.equal(amount);
         });
     });
+    describe(@"withdraw", ^{
+        __block int amount;
+        __block int initBalance;
+        
+        context(@"when sufficient founds", ^{
+            beforeEach(^{
+                initBalance = 100;
+                amount = 50;
+                bankAccount = [[BankAccount alloc] initWithBalance:initBalance];
+            });
+            it(@"decreases balance by amount ", ^{
+                [bankAccount withdraw:amount];
+                expect(bankAccount.balance).to.equal(initBalance - amount);
+            });
+        });
+        context(@"when insufficient founds", ^{
+            beforeEach(^{
+                initBalance = 100;
+                amount = 1000000;
+                bankAccount = [[BankAccount alloc] initWithBalance:initBalance];
+            });
+            it(@"does not decreases balance", ^{
+                [bankAccount withdraw:amount];
+                expect(bankAccount.balance).to.equal(initBalance);
+            });
+        });
+    });
     afterAll(^{
         bankAccount = nil;
     });
