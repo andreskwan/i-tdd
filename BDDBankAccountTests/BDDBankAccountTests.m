@@ -37,14 +37,17 @@ describe(@"BankAccount", ^{
             expect(bankAccount.balance).to.equal(initialBalance);
         });
     });
-    xdescribe(@"deposit", ^{
-        __block int amount  = 50 + 80 + 160 + 2000;
+    describe(@"deposit", ^{
+        __block int amount;
         beforeAll(^{
-            //preconditions
+            //GIVEN: (preconditions)
             bankAccount = [[BankAccount alloc] init];
+            amount = 50 + 80 + 160 + 2000;
         });
         it(@"should increases balance after subsequent deposits", ^{
+            //WHEN: (action)
             [bankAccount deposit:amount];
+            //THEN: (consequence)
             expect(bankAccount.balance).to.equal(amount);
         });
     });
